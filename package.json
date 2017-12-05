@@ -1,0 +1,27 @@
+{
+	"name": "prettier-pre-commit",
+	"version": "1.0.0",
+	"description": "Runs prettier before commits, only on staged hunks.",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/configurator/prettier-pre-commit.git"
+	},
+	"author": "Dor Kleiman <configurator@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/configurator/prettier-pre-commit/issues"
+	},
+	"homepage": "https://github.com/configurator/prettier-pre-commit#readme",
+	"dependencies": {
+		"git-utils": "^5.1.0",
+		"prettier": "^1.9.0"
+	},
+	"prettier": {
+		"printWidth": 100,
+		"useTabs": true,
+		"tabWidth": 4,
+		"singleQuote": true,
+		"trailingComma": "es5"
+	}
+}
